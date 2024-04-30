@@ -48,6 +48,7 @@
   background-color: white;
   border: none;
   text-decoration:none;
+  font-size: 20px;
 }
 .box-card p {
 
@@ -128,6 +129,7 @@
   padding: 16px;
   border-radius: 10px;
   background-color: white;
+  font-size: 20px;
 }
 
 
