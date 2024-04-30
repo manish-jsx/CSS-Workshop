@@ -8,25 +8,23 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      background-color: #f7f7f7;
-      color: #333;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #f8f9fa;
     }
 
-    a {
+    a.active {
       color: #007bff;
+      font-weight: bold;
+    }
+
+    a.inactive {
+      color: #6c757d;
       text-decoration: none;
     }
 
-    a:hover {
-      color: #0056b3;
-    }
-
-    .inactive-link {
-      color: #999 !important;
-      pointer-events: none;
-      cursor: default;
+    .github-logo {
+      width: 30px;
+      height: auto;
     }
   </style>
 </head>
@@ -38,27 +36,34 @@
     <div class="row mt-4">
       <div class="col-md-6">
         <h2>Day 1</h2>
-        <p>Assignment solution for Day 1: <a href="day1.html">Link to Day 1 Assignment</a></p>
+        <p>Assignment solution for Day 1: <a href="day1.html" class="active">Link to Day 1 Assignment</a></p>
       </div>
       <div class="col-md-6">
         <h2>Day 2</h2>
-        <p>Assignment solution for Day 2: <a href="#" class="inactive-link">Link to Day 2 Assignment</a></p>
+        <p>Assignment solution for Day 2: <a href="#" class="inactive">Link to Day 2 Assignment</a></p>
       </div>
     </div>
     <div class="row mt-4">
       <div class="col-md-6">
         <h2>Day 3</h2>
-        <p>Assignment solution for Day 3: <a href="#" class="inactive-link">Link to Day 3 Assignment</a></p>
+        <p>Assignment solution for Day 3: <a href="#" class="inactive">Link to Day 3 Assignment</a></p>
       </div>
       <div class="col-md-6">
         <h2>Day 4</h2>
-        <p>Assignment solution for Day 4: <a href="#" class="inactive-link">Link to Day 4 Assignment</a></p>
+        <p>Assignment solution for Day 4: <a href="#" class="inactive">Link to Day 4 Assignment</a></p>
       </div>
     </div>
     <div class="row mt-4">
       <div class="col-md-6">
         <h2>Day 5</h2>
-        <p>Assignment solution for Day 5: <a href="#" class="inactive-link">Link to Day 5 Assignment</a></p>
+        <p>Assignment solution for Day 5: <a href="#" class="inactive">Link to Day 5 Assignment</a></p>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12 text-center">
+        <a href="https://github.com/manish-jsx/CSS-Workshop" target="_blank">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Repository" class="github-logo">
+        </a>
       </div>
     </div>
   </div>
