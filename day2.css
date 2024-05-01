@@ -1,0 +1,179 @@
+.github-logo{
+  position: fixed;
+  height: 100px;
+  border-radius: 60px;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.food-card{
+  box-shadow: 5px -3px 53px -10px rgba(0,0,0,0.7);
+  border: lightgrey solid 2px;
+  border-radius: 14px;
+  width: 470px;
+  margin: 40px auto;
+  padding: 16px;
+
+}
+.photo-card{
+ position: relative;
+}
+.biryani{
+  border: none;
+  border-radius: 14px;
+  width: 100%;
+
+}
+.offer{
+  position: absolute;
+  background-color: rgb(0, 134, 212);
+  color: white;
+  bottom: 14px;
+  left: 14px;
+}
+.delivery-time{
+  position: absolute;
+  background-color: rgb(194, 204, 210);
+  color: black;
+  bottom: 14px;
+  right: 14px;
+  border: none;
+  border-radius: 14px;
+
+}
+
+.safety-logo{
+  border-radius: 6px;
+  width: 130px;
+  height: 50px;
+}
+
+
+
+
+.bg-img{
+  width: 470px;
+  margin:  40px auto;
+  padding: 16px;
+  text-align: center;
+  
+}
+.bali{
+  position: absolute;
+}
+
+.blai-img{
+  border-radius: 15px;
+  width:470px;
+}
+.content{
+  position: relative;
+  color: white;
+  margin:100px auto;  
+}
+
+.explore-btn{
+  border: none;
+  padding: 16px 30px;
+  border-radius: 40px;
+}
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.zomato {
+  position: relative;
+  width: 100%;
+}
+
+.bg-zomato {
+  position: relative;
+  width: 100vw;
+}
+
+.bg-zomato img {
+  width: 100%;
+}
+
+.content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.logo img {
+  max-width: 400px; /* Adjust max-width as needed */
+}
+
+.heading {
+  color: white;
+  font-size: 32px;
+  margin: 40px auto;
+}
+
+.input {
+  width: calc(100% - 20px); /* Adjust width to accommodate padding */
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.input:focus {
+  border-color: #f06d54;
+}
+
+
+.linkedin-card{
+margin: 40px auto;
+border: #999 solid 2px;
+border-radius: 14px;
+width:470px;
+position: absolute;
+ text-align: center;
+}
+
+.profile{
+  position: relative;
+}
+
+.profile img{
+ width: auto;
+ border-radius: 14px 14px 0px 0px;
+ width: 466px;
+}
+
+.display{
+  position: relative;
+  bottom: 120px;
+}
+
+.display img{
+  bottom: 120px;
+  border: #ffffff solid 4px;
+  border-radius: 50%;
+}
+
+.linkedin-content{
+  top: 20px;
+}
