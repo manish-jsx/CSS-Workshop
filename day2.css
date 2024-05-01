@@ -14,10 +14,16 @@
   width: 470px;
   margin: 40px auto;
   padding: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .photo-card{
  position: relative;
+}
+
+.food-card p{
+  color:#797575
+
 }
 .biryani{
   border: none;
@@ -25,21 +31,34 @@
   width: 100%;
 
 }
+.promoted{
+  background-color: lightgray;
+  opacity:0.5;
+  position: absolute;
+  top:0;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 1px;
+  border-radius: 5px;
+
+}
 .offer{
   position: absolute;
   background-color: rgb(0, 134, 212);
   color: white;
   bottom: 14px;
-  left: 14px;
+  
+  padding: 5px 10px;
 }
 .delivery-time{
   position: absolute;
-  background-color: rgb(194, 204, 210);
+  background-color: rgb(255, 255, 255);
   color: black;
   bottom: 14px;
   right: 14px;
   border: none;
   border-radius: 14px;
+  padding: 5px 10px;
 
 }
 
@@ -49,6 +68,9 @@
   height: 50px;
 }
 
+.safety{
+  padding: 16px;
+}
 
 
 
@@ -57,6 +79,7 @@
   margin:  40px auto;
   padding: 16px;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
 }
 .bali{
@@ -84,7 +107,7 @@
 
 
 
-* {
+.zomato-container{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -93,6 +116,7 @@
 .zomato {
   position: relative;
   width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .bg-zomato {
@@ -145,7 +169,7 @@
 
 
 .linkedin-card{
-margin: 40px auto;
+margin: 10% 30%;
 border: #999 solid 2px;
 border-radius: 14px;
 width:470px;
@@ -161,19 +185,22 @@ position: absolute;
  width: auto;
  border-radius: 14px 14px 0px 0px;
  width: 466px;
+ height: 200px;
 }
 
 .display{
   position: relative;
-  bottom: 120px;
+  bottom: 100px;
 }
 
 .display img{
-  bottom: 120px;
+
   border: #ffffff solid 4px;
   border-radius: 50%;
 }
 
 .linkedin-content{
-  top: 20px;
+  position: relative;
+  bottom: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
